@@ -63,6 +63,7 @@ button {
     font-weight: 700;
     text-shadow: 1px 0 0 #ABC4FF, 0 1px 0 #ABC4FF, -1px 0 0 #ABC4FF, 0 -1px 0 #ABC4FF;
     overflow: hidden;
+    transition: 0.25s;
   }
   button:link, button:visited {
     text-transform: uppercase;

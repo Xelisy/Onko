@@ -4,6 +4,26 @@
 
     </head>
     <body>
-        <p>Привет</p>
-        
+        <div class="loginBox">
+        <form class="loginForm">
+            <div class="inputCont">
+                <input class='inputJs' id="login" required>
+                <label class='unactive' for="login">Логин</label>   
+            </div>
+            <div class="inputCont">
+                <input class='inputJs' type="password" id="password" required> 
+                <label class='unactive' for="password">Пароль</label>
+                <div class="imgCont">
+                    <img class="visibleImg offImg" src="assets/images/visibility.svg" alt="visible">
+                    <img class="visibleImg" src="assets/images/visibility_off.svg" alt="visible">
+                </div>
+            </div>
+            <div class="textCont">
+                <span>Забыли пароль?</span>
+                <span>Регистрация</span>
+            </div>
+            <button>Вход</button>
+        </form>
+        </div>
+        <script src="script.js"></script>
     </body>

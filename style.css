@@ -32,12 +32,12 @@ body {
   flex-direction: column;
 }
 .loginForm button {
-  width: 180px;
+  width: 300px;
   padding: 18px 0px;
 }
 input {
-  padding: 10px 0px 10px 13px;
-  width: 180px;
+  padding: 20px 0px 20px 13px;
+  width: 300px;
   border-radius: 10px;
   background-color: var(--whiteBlue);
   border: var(--blueBorderShadow) solid 2px;
@@ -47,6 +47,7 @@ input {
 }
 .textCont {
   margin: 10px 0px 40px 0px;
+  font-weight: 700;
 }
 .loginForm .inputCont {
   position:relative;
@@ -54,7 +55,8 @@ input {
 .loginForm label {
   position: absolute;
   left: 10px;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 700;
   padding: 0px 3px;
   background-color: var(--whiteBlue);
   transition: .25s;
@@ -68,21 +70,21 @@ input {
 .loginForm .imgCont {
   position: absolute;
   right: 10px;
-  top: 27%;
+  top: 37%;
 }
 .inputCont input:focus {
   border-color: var(--darkBlueFocus); 
   
 }
 .unactive {
-  top: 12px;
+  top: 18px;
 }
 
 .inputCont input:active, input:focus + label {
-  top: -7px;
+  top: -9px;
 }
 .active {
-  top: -7px;
+  top: -9px;
 }
 .doctor {
   text-align: center;

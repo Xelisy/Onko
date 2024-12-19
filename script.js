@@ -7,7 +7,6 @@ inputJs.forEach(item => {
     })
     if (item.children[2]) {
         item.children[2].addEventListener('click', () => {
-            console.log('ihui beka ishak')
             if(item.children[0].getAttribute('type') == 'password') {
                 item.children[0].setAttribute('type', '')
             }

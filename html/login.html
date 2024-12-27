@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+        <link href="/Onko/css/style.css" rel="stylesheet">
+        <title>Логин</title>
+    </head>
+    <body>
+        <div class="loginBox">
+        <form class="loginForm">
+            <div class="inputCont">
+                <input data-input id="login">
+                <label data-label class='unactive' for="login">Логин</label>   
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="inputCont">
+                <input data-input type="password" id="password"> 
+                <label data-label class='unactive' for="password">Пароль</label>
+                <div data-toggle class="imgCont">
+                    <img data-img1 class="visibleImg offImg" src="/Onko/assets/images/visibility.svg" alt="visible">
+                    <img data-img2 class="visibleImg" src="/Onko/assets/images/visibility_off.svg" alt="visible">
+                </div>
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="textCont">
+                <span>Забыли пароль?</span>
+                <a href="/Onko/html/registration.html"><span>Регистрация</span></a>
+            </div>
+            <button class="buttonRedirect">Вход</button>
+        </form>
+        </div>
+        <script src="/Onko/script.js"></script>
+    </body>

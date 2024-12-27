@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <link href="/Onko/css/style.css" rel="stylesheet">
+        <link href="registration.css" rel="stylesheet">
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <div class="registrationBox">
+        <form class="loginForm">
+            <div class="inputCont">
+                <input data-input id="mail">
+                <label data-label class='unactive' for="mail">Почта</label>   
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="inputCont">
+                <input data-input id="surname" >
+                <label data-label class='unactive' for="surname">Фамилия</label>   
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="inputCont">
+                <input data-input id="name"> 
+                <label data-label class='unactive' for="name">Имя</label>
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="inputCont">
+                <input data-input type="password" id="password"> 
+                <label data-label class='unactive' for="password">Пароль</label>
+                <div data-toggle class="imgCont">
+                    <img data-img1 class="visibleImg offImg" src="/Onko/assets/images/visibility.svg" alt="visible">
+                    <img data-img2 class="visibleImg" src="/Onko/assets/images/visibility_off.svg" alt="visible">
+                </div>
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="inputCont">
+                <input data-input type="password" id="repPassword"> 
+                <label data-label class='unactive' for="repPassword">Повторите пароль</label>
+                <div data-toggle class="imgCont">
+                    <img data-img1 class="visibleImg offImg" src="/Onko/assets/images/visibility.svg" alt="visible">
+                    <img data-img2 class="visibleImg" src="/Onko/assets/images/visibility_off.svg" alt="visible">
+                </div>
+                <span data-error class="error">Вы не ввели все значения!</span>
+            </div>
+            <div class="inputCont">
+                <input data-inputid="code">
+                <label data-label class='unactive' for="code">Код доступа</label>
+            </div>
+            <button class="buttonRedirect">Зарегистрироваться</button>
+        </form>
+        </div>
+        <script src="/Onko/script.js"></script>
+    </body>

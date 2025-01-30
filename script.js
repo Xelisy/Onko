@@ -71,3 +71,4 @@ document.querySelector('.loginForm').addEventListener('submit', e => {
 document.querySelector('.loginForm').addEventListener('input', () => {
     checking()
 })
+

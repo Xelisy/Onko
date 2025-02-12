@@ -59,16 +59,15 @@ const authorization = () => {
         window.location.href = '/Onko/html/index.html';
     }
 }
-//redirect
+redirect
 document.querySelector('.loginForm').addEventListener('submit', e => {
     e.preventDefault();
     checking()
     authorization();
 })
 
-//checking
+checking
 
 document.querySelector('.loginForm').addEventListener('input', () => {
     checking()
 })
-
